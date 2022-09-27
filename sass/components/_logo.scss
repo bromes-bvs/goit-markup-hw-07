@@ -1,0 +1,21 @@
+.logo {
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-right: 93px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: $primary-letter-spacing;
+  color: $logo-accent-color;
+
+  &:hover,
+  &:focus {
+    color: currentColor;
+  }
+}
+
+.logo__accent {
+  color: $accent-color;
+}

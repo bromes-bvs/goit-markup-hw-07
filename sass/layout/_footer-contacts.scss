@@ -1,0 +1,21 @@
+.footer-contacts__item {
+  width: 231px;
+
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.footer-contacts__link {
+  font-weight: $primery-font-weight;
+  color: $footer-contacts-color;
+}
+
+.footer-contacts__link--maps {
+  color: $primary-background-color;
+
+  &:hover,
+  &:focus {
+    color: $primary-background-color;
+  }
+}

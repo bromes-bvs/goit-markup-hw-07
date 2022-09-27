@@ -1,0 +1,133 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $secondary-background-color;
+}
+
+.containet--footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.address-container {
+  margin-right: 70px;
+}
+
+.logo--footer {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: Raleway, sens-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: $primary-letter-spacing;
+  color: $primary-background-color;
+
+  &:hover,
+  &:focus {
+    color: $primary-background-color;
+  }
+}
+
+/* Footer-social */
+
+.join__title {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $primary-background-color;
+}
+
+.social-list--footer {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.social-list__link--footer {
+  color: $primary-background-color;
+  background: rgba(255, 255, 255, 0.1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.subscribe {
+  margin-left: 93px;
+}
+
+.subscribe__title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $primary-background-color;
+}
+
+.subscribe__form {
+  display: flex;
+}
+
+.subscribe__input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  margin-right: 12px;
+
+  color: $primary-background-color;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: $secondary-background-color;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    outline: none;
+    border: 1px solid $accent-color;
+  }
+}
+
+.subscribe__btn {
+  position: relative;
+
+  outline: none;
+  width: 200px;
+  height: 50px;
+  padding-right: 62px;
+  padding-left: 28px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: $accent-color;
+  color: $primary-background-color;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 28px;
+    top: 12px;
+    background-image: url(../images/iconsend.svg);
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+  }
+}
